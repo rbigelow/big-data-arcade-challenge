@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export default function Logo({ className = 'h-16 w-40' }) {
+export default function Logo({ className = 'h-100' }) {
   const [missing, setMissing] = useState(false)
   if (missing) {
     return (
@@ -9,5 +9,5 @@ export default function Logo({ className = 'h-16 w-40' }) {
       </div>
     )
   }
-  return <img src="/logo.png" alt="Program logo" className={`${className} object-contain`} onError={() => setMissing(true)} />
+  return <img src="logo.png" alt="Program logo" className={`${className} object-contain`} onError={() => setMissing(true)} />
 }

@@ -1,3 +1,4 @@
+![BIG DATA CHALLENGE ARCADE logo](https://raw.githubusercontent.com/rbigelow/big-data-arcade-challenge/refs/heads/main/logo.png)
 # BIG DATA ARCADE CHALLENGE
 
 > Can you find the story hidden in the data?

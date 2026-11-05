@@ -42,11 +42,10 @@ export default function ArcadeHome({ stats, onOpen }) {
         </ul>
       </main>
       <footer className="mt-8 border-t-2 border-line px-4 py-10 text-center">
-        <div className="flex justify-center"><Logo /></div>
+      
         <p className="mt-3 text-2xl font-black">BIG DATA ARCADE CHALLENGE</p>
         <p className="text-accent">Can you find the story hidden in the data?</p>
-        <p className="mt-2 text-muted">Discover how Big Data Analytics turns millions of records into insight.</p>
-        <div className="mx-auto mt-4 flex h-28 w-28 items-center justify-center rounded-2xl border-2 border-dashed border-line p-2 text-xs font-bold text-muted" role="img" aria-label="Program QR code placeholder">PROGRAM QR CODE PLACEHOLDER</div>
+       
         <p className="mt-4 text-sm text-muted">All data shown is SYNTHETIC and generated in your browser. It does not represent real Georgian College operations.</p>
       </footer>
     </>
